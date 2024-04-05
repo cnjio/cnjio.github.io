@@ -24,11 +24,11 @@ body {
 
 /* header */
 .bar {
-    background-color: black;
-}
-header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    background-color: black;
+    width: 100%;    
+    opacity: 0.8;
 }
 header a:hover {
     opacity: 1;
@@ -37,7 +37,7 @@ header a:hover {
 ul {
     display: flex;
     justify-content: space-around;
-
+    width: 1000px;
     padding: 30px;
     font-size: x-large;
     font-weight: bold;
@@ -45,7 +45,7 @@ ul {
 header a {
     color: white;
     text-decoration: none;
-    opacity: 0.8;
+
 }
 
 /* intro */
@@ -72,6 +72,7 @@ h1 {
 }
 #home {
     margin-bottom: 600px;
+    padding-top: 150px;
 }
 
 /* Over mij */
