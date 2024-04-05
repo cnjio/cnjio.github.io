@@ -60,7 +60,7 @@ h1 {
     font-size: 100px;
     font-weight: lighter;
 }
-h2 {
+#home h2 {
     color: white;
     display: flex;
     justify-content: center;
@@ -69,4 +69,15 @@ h2 {
 }
 .intro {
     padding-top: 20px;
+}
+#home {
+    margin-bottom: 600px;
+}
+
+/* Over mij */
+#about-me {
+    margin-bottom: 500px;
+}
+#about-me h2{
+    font-size: 100px;
 }
