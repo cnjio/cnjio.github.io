@@ -79,5 +79,9 @@ h1 {
     margin-bottom: 500px;
 }
 #about-me h2{
-    font-size: 100px;
+    font-size: 60px;
+}
+#about-me p{
+    color: white;
+    font-size: x-large;
 }
