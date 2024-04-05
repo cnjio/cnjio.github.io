@@ -78,6 +78,7 @@ h1 {
 /* Over mij */
 #about-me {
     margin-bottom: 500px;
+    padding-top: 200px;
 }
 #about-me h2{
     font-size: 60px;
@@ -85,4 +86,11 @@ h1 {
 #about-me p{
     color: white;
     font-size: x-large;
+}
+#about-me img {
+    width: 50%;
+}
+.selfie-container {
+    display: flex;
+    justify-content: center;
 }
