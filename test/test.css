@@ -22,27 +22,6 @@ body {
     background-color: var(--background-color);
 }
 
-.nav {
-    background-color: black;
-}
-header {
-    position: sticky;
-    top: 0;
-}
-header a:hover {
-    opacity: 1;
-    color: white;
-}
-ul {
-    display: flex;
-    justify-content: space-around;
-
-    padding: 30px;
-    font-size: x-large;
-    font-weight: bold;
-}
-header a {
-    color: white;
-    text-decoration: none;
-    opacity: 0.8;
+.name-in-home {
+    font-size: 100px;
 }
