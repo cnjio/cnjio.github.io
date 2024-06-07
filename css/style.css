@@ -62,56 +62,16 @@ header a {
 .soft-d {
     font-size: 50px;
 }
-/* h1, h2{
-    color: white;
-}
-h1 {
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: 120px;
-    font-size: 100px;
-    font-weight: lighter;
-}
-#home h2 {
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    font-weight: lighter;
-}
-.intro {
-    padding-top: 20px;
-}
-#home {
-    margin-bottom: 600px;
-    padding-top: 150px;
-} */
 
 /* Over mij */
-.about-me {
+#about-me {
     margin-top: 700px;
 }
-/* #about-me {
-    margin-bottom: 500px;
-    padding-top: 200px;
-}
-#about-me h2{
-    font-size: 60px;
-}
-#about-me p{
-    color: white;
-    font-size: x-large;
-}
-#about-me img {
-    width: 50%;
-}
-.selfie-container {
-    display: flex;
-    justify-content: center;
-} */
-/* projects */
-
 #about-me img {
     width: 50%;
     }
+
+/* projects */
+#projects {
+    margin-top: 700px;
+}
