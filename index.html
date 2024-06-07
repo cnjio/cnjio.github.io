@@ -16,44 +16,61 @@
 
 <body>
     <!-- Header -->
-    <div class="container-fluid">
+    <div class="container-fluid bg-black">
         <div class="row bar">
             <div class="col-md-2"></div>
             <div class="col col-md-8">
-                <header>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about-me">Over Mij</a></li>
-                        <li><a href="#projects">Projecten</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </header>
+                <!-- navbar -->
+                <nav class="navbar navbar-expand-lg fixed-top bg-black opacity-75">
+                    <div class="container-fluid ">
+                      <a class="navbar-brand" href="#">Navbar</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
+                        <ul class="navbar-nav ">
+                          <li class="nav-item">
+                            <a class="nav-link text-white fs-2" aria-current="page" href="#home">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white fs-2" href="#about-me">Over mij</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white fs-2" href="#">Projecten</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white fs-2" href="#">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
             </div>
             <div class="col-md-2"></div>
         </div>
     </div>
 
     <!-- Intro -->
-    <div class="container-fluid" id="home">
-        <div class="container-md intro">
+    <div class="container-fluid text-white " id="home">
+        <div class="container-md intro justify-content-center">
             <div class="row">
-                <div class="col-md-12">
-                    <h2>Portfolio</h2>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h2 class="portfolio mb-5">Portfolio</h2>
                 </div>
             </div>
         </div>
         <div class="container-md">
             <div class="row">
-                <div class="col-md-12">
-                    <h1>Christopher Njio</h1>
-                    <h2>Software developer</h2>
+                <div class="col-md-12 d-flex flex-column  align-items-center ">
+                    <h1 class="chrs mt-5">Christopher Njio</h1>
+                    <h2 class="soft-d ff-light">Software developer</h2>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Over mij -->
-    <div class="container-fluid about-me" id="about-me">
+    <div class="container-fluid about-me text-white" id="about-me">
         <div class="container-md">
             <div class="row">
                 <div class="col-md-2"></div>
@@ -67,7 +84,7 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
-                    <p>Ik ben een software developer en ik kan en leer:
+                    <p class="fs-2">Ik ben een software developer en ik kan en leer:
                         <br>
                         Html
                         <br>
@@ -77,7 +94,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 selfie-container">
-                    <img src="img/selfie.jpg" alt="">
+                    <img src="img/selfie.jpg" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
