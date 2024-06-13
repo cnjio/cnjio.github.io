@@ -61,3 +61,7 @@ body {
 
     color: red;
 }
+
+.card {
+    background-color: var(--blue-color);
+}
