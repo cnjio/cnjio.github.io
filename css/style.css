@@ -22,35 +22,9 @@ body {
     background-color: var(--background-color);
 }
 
-/* header */
-/* .bar {
-    position: fixed;
-    top: 0;
-    background-color: black;
-    width: 100%;    
-    opacity: 0.8;
-}
-header a:hover {
-    opacity: 1;
-    color: white;
-}
-ul {
-    display: flex;
-    justify-content: space-around;
-    width: 1000px;
-    padding: 30px;
-    font-size: x-large;
-    font-weight: bold;
-}
-header a {
-    color: white;
-    text-decoration: none;
-
-} */
-
 /* intro */
 #home {
-    margin-top: 200px;
+    padding-top: 200px;
 }
 
 .portfolio {
@@ -73,5 +47,17 @@ header a {
 
 /* projects */
 #projects {
-    margin-top: 700px;
+    margin-top: 500px;
+    padding-top: 100px;
+}
+
+/* Contact */
+#contact {
+    margin-top: 500px;
+    padding-top: 100px;
+}
+
+.nav-link:hover{
+
+    color: red;
 }
