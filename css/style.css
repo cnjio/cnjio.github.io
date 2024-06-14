@@ -45,9 +45,15 @@ body {
     width: 50%;
     }
 
+
+/* about portfolio */
+.about-portfolio {
+    margin-top: 300px;
+    padding-top: 100px;
+}
 /* projects */
 #projects {
-    margin-top: 500px;
+    margin-top: 300px;
     padding-top: 100px;
 }
 
@@ -62,6 +68,7 @@ body {
     color: red;
 }
 
+/* card */
 .card {
     background-color: var(--blue-color);
 }
