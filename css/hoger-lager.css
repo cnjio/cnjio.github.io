@@ -1,0 +1,41 @@
+:root {
+    --background-color: #0C1424;
+    --brown-color: #8C7A71;
+    --blue-color: #0C1C4C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+/* projects */
+#hoger-lager {
+    margin-top: 150px;
+}
+
+/* Contact */
+#contact {
+    margin-top: 500px;
+    padding-top: 100px;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+/* card */
+.card {
+    background-color: var(--blue-color);
+}
