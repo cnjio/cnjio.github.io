@@ -64,8 +64,7 @@ body {
 }
 
 .nav-link:hover{
-
-    color: red;
+    color: #1f46bd !important;
 }
 
 /* card */
