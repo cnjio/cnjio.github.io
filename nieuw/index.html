@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand fs-2 text-white" href="#">Christopher Njio</a>
@@ -25,17 +26,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active fs-3 text-white" aria-current="page" href="">Home</a>
+                        <a class="nav-link active fs-3 text-white" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active fs-3 text-white" aria-current="page" href="#">Over mij</a>
+                        <a class="nav-link active fs-3 text-white" aria-current="page" href="#about-me">Over mij</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active fs-3 text-white" aria-current="page" href="#">Portfolio</a>
+                        <a class="nav-link active fs-3 text-white" aria-current="page" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fs-3 text-white" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle fs-3 text-white" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Projecten
                         </a>
                         <ul class="dropdown-menu">
@@ -53,31 +54,130 @@
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
                     <li class="nav-item">
-                        <a class="nav-link active fs-3 text-white" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link active fs-3 text-white" aria-current="page" href="#footer">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Hero section -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="home">
         <div class="row">
-            <div class="col-md-12 hero-section">
-
+            <div class="col-md-12 hero-section d-flex justify-content-center align-items-center flex-column">
+                <h3 class="text-white">Portfolio</h3>
+                <h1 class="text-white fs-1 title">Christopher Njio</h1>
+                <h2 class="text-white">Software development</h2>
             </div>
         </div>
     </div>
     <!-- Over mij -->
-    <div class="container-fluid my-5">
+    <div class="container-fluid my-5" id="about-me">
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 text-white">
-                <h2>Over mij</h2>
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-white">
+                <h2 class="fs-1 text-center mb-5">Over mij</h2>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 text-white">
+                            <p class="fs-3">Ik heb mijn MBO diploma software development gehaald en ik ga de opleiding
+                                ICT doen op het HBO. Tot nu toe heb ik gewerkt met:</p>
+                            <ul>
+                                <li>
+                                    <p class="fs-4">Html</p>
+                                </li>
+                                <li>
+                                    <p class="fs-4">Css, bootstrap en tailwind</p>
+                                </li>
+                                <li>
+                                    <p class="fs-4">Javascript</p>
+                                </li>
+                                <li>
+                                    <p class="fs-4">Symfyony</p>
+                                </li>
+                                <li>
+                                    <p class="fs-4">Laravel</p>
+                                </li>
+                                <li>
+                                    <p class="fs-4">Wordpress</p>
+                                </li>
+                                <li>
+                                    <p class="fs-4">PhpMyAdmin</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img class="img-fluid" src="../img/selfie.jpg" style="height: 70%;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
         </div>
     </div>
-    
+    <!-- Portfolio -->
+    <div class="container-fluid my-5" id="portfolio">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-white">
+                <h2 class="fs-1 text-center mb-5">Over mijn portfiolio</h2>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="text-white fs-3">Ik moest eerst onderzoek doen voordat ik mijn portfolio kon
+                                maken.
+                                Ik moest van tevoren weten met welk kleurenschema ik wou werken, hoe mijn sitemap eruit
+                                zou zien en nog meer dingen. Ik heb mijn keuzes uitgelegd dus lees gerust verder.
+                            </p>
+                            <button type="button" class="btn btn-primary fs-5">Lees meer</button>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="border border-3 border-white">
+                                <img class="img-fluid" src="../img/portfolio.PNG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="card rounded-0 bg-black text-white" id="footer">
+        <h2 class="card-header text-center my-2">Contact</h2>
+        <hr class="p-0 m-0">
+        <div class="card-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <p class="fs-5">Dankjewel voor het lezen van mijn portfolio. Als je vragen hebt of contact met
+                            mij wilt opnemen, dan kan je me bereiken via:
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="fs-5">Telefoonnummer: 06 xxxxxxxx</p>
+                        <p class="fs-5">Email: 302788507@student.rocmondriaan.nl</p>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+        <hr class="m-0 p-0">
+        <h5 class="text-center mt-2">&copy;Christopher Njio</h5>
+    </div>
 </body>
 
 </html>

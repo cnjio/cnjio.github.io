@@ -17,6 +17,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#about-me, #portfolio {
+    padding-top: 100px !important;
+}
+
 .navbar-nav li {
     margin-left: 30px;
     margin-right: 30px;
