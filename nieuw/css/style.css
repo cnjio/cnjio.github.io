@@ -34,3 +34,10 @@ html {
     background-image: url('/img/portfolio-background.jpg');
     height: 100vh;
 }
+
+.ftc {
+    height: fit-content;
+}
+.selfie {
+    width: 40%;
+}
